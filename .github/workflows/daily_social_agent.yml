@@ -87,7 +87,7 @@ jobs:
           # 1. Populate .env file
           if [ -n "$GEMINI_API_KEY" ]; then
             echo "GEMINI_API_KEY=$GEMINI_API_KEY" >> .env
-            echo "GEMINI_MODEL=gemini-4-argon" >> .env
+            echo "GEMINI_MODEL=gemini-3.1-flash-lite" >> .env
             echo "DEFAULT_NICHE=High-Performance Growth Mindset, Stoic Philosophy, Health & Fitness Science, Mental Resilience, and Peak Daily Discipline" >> .env
             echo "SOCIAL_DAILY_UPLOAD_TIME=09:00" >> .env
             echo "SOCIAL_DAILY_POST_LIMIT=1" >> .env
